@@ -1,0 +1,34 @@
+{
+  "name": "roblox-job-system",
+  "servePort": 8000,
+  "partitions": {
+	"CharacterScripts": {
+	  "path": "StarterPlayer/StarterCharacterScripts",
+	  "target": "StarterPlayer.StarterCharacterScripts"
+	},
+	"PlayerScripts": {
+	  "path": "StarterPlayer/StarterPlayerScripts/Scripts",
+	  "target": "StarterPlayer.StarterPlayerScripts.Scripts"
+	},
+	"ReplicatedClient": {
+	  "path": "ReplicatedStorage/Client",
+	  "target": "ReplicatedStorage.Client"
+	},
+	"ReplicatedGame": {
+	  "path": "ReplicatedStorage/Game",
+	  "target": "ReplicatedStorage.Game"
+	},
+	"ReplicatedLibraries": {
+	  "path": "ReplicatedStorage/Libraries",
+	  "target": "ReplicatedStorage.Libraries"
+	},
+	"ServerScripts": {
+	  "path": "ServerScriptService/Game",
+	  "target": "ServerScriptService.Game"
+	},
+    "Chat": {
+      "path": "Chat",
+      "target": "Chat"
+    }
+  }
+}
